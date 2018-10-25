@@ -1,0 +1,8 @@
+{
+    "ruby.useLanguageServer": true,
+    "[ruby]": {
+        "editor.formatOnSave": true
+    },
+    "ruby.format": "rubocop",
+    "editor.formatOnSaveTimeout": 1500
+}
