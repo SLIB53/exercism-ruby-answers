@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Acronym (Debug), Launch Tests",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/acronym",
+            "program": "${workspaceRoot}/acronym/acronym_test.rb",
+        },
+        {
             "name": "Bob (Debug), Launch Tests",
             "type": "Ruby",
             "request": "launch",
@@ -12,11 +19,25 @@
             "program": "${workspaceRoot}/bob/bob_test.rb",
         },
         {
+            "name": "Hello World (Debug), Launch Tests",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/hello-world",
+            "program": "${workspaceRoot}/hello-world/hello_world_test.rb",
+        },
+        {
             "name": "Isogram (Debug), Launch Tests",
             "type": "Ruby",
             "request": "launch",
             "cwd": "${workspaceRoot}/isogram",
             "program": "${workspaceRoot}/isogram/isogram_test.rb",
+        },
+        {
+            "name": "Two Fer (Debug), Launch Tests",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/two-fer",
+            "program": "${workspaceRoot}/two-fer/two_fer_test.rb",
         },
     ]
 }
