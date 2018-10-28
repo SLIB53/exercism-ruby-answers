@@ -33,6 +33,13 @@
             "program": "${workspaceRoot}/isogram/isogram_test.rb",
         },
         {
+            "name": "Leap (Debug), Launch Tests",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/leap",
+            "program": "${workspaceRoot}/leap/leap_test.rb",
+        },
+        {
             "name": "Two Fer (Debug), Launch Tests",
             "type": "Ruby",
             "request": "launch",
