@@ -40,6 +40,13 @@
             "program": "${workspaceRoot}/leap/leap_test.rb",
         },
         {
+            "name": "Matrix (Debug), Launch Tests",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/matrix",
+            "program": "${workspaceRoot}/matrix/matrix_test.rb",
+        },
+        {
             "name": "Two Fer (Debug), Launch Tests",
             "type": "Ruby",
             "request": "launch",
