@@ -20,6 +20,12 @@ To run all the tests, use the `test_all.sh` script.
 sh test_all.sh
 ```
 
+Alternatively, tests can be run from a container using Docker. Tests will run on build.
+
+```sh
+docker build --tag exercism-ruby-answers:latest .
+```
+
 [exercism]: https://exercism.io
 [exercism-ruby-track]: https://exercism.io/tracks/ruby
 [exercism-elixir-answers]: https://github.com/SLIB53/exercism-elixir-answers

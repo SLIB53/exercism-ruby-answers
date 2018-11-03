@@ -1,10 +1,4 @@
 language: minimal
 
-before_install:
-  - sudo apt update
-
-install:
-  - sudo apt install ruby
-
 script:
-  - sh test_all.sh
+  - docker build --tag exercism-elixir-answers:latest .

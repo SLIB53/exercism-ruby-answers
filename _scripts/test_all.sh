@@ -1,4 +1,4 @@
-#!/bin/env sh
+# This script must run from the project's base directory!
 
 # Runs tests for each exercise, exiting with 1 if a test fails. Tests are found
 # by convention, where the test is a ruby script ending with "_test.exs".
