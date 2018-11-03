@@ -1,5 +1,5 @@
 module Isogram
-  def self.isogram?(str)
-    !str.scan(/\p{L}/).map(&:downcase).uniq!
+  def self.isogram?(phrase)
+    !phrase.downcase.scan(/\p{L}\p{M}*+/).uniq!
   end
 end
